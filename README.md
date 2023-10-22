@@ -27,6 +27,15 @@ To run the regression tests, use any of the below option.
     ```
 * Option 2 : Run the `testng.xml` file directly from any IDE (preferably IntelliJ Idea).
 
+## Run in CICD 
+
+Through maven lifecycle we can define the order of execution, and it's easily configurable on any CICD tools.
+To execute this test, simply define the command as mvn test on the CLI script block.
+
+```bash
+mvn test
+```
+
 ## Report
 
 After the tests are executed, the reports get generated as html in `target/surefire-reports/index.html` and more
