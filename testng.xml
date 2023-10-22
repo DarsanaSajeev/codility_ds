@@ -1,0 +1,8 @@
+<suite name="Pet store" parallel="classes" thread-count="1">
+    <test name="Pet Regression">
+        <classes>
+            <class name="io.petstore.PetTests">
+            </class>
+        </classes>
+    </test>
+</suite>
